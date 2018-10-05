@@ -1,0 +1,23 @@
+.heading{
+    font: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:purple;
+    background-color:lightcoral;
+    width: 100%;
+    margin: auto;
+    padding-left: 35%;
+}
+button{
+    margin-left: 450px;
+}
+
+.cards {
+    display: flex;
+   flex-wrap: wrap;  
+}
+
+body{
+       overflow: hidden;
+     width: 100%
+}

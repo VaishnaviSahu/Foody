@@ -1,0 +1,16 @@
+<body>
+<h1 class="heading">FAVOURITES</h1><br><br>
+<button (click)="showFavs()">Favourites</button><br><br>
+<br>
+<div class="cards" style="width:100%">
+  <div class="row" *ngFor="let rest of restaurants">
+    <!-- <div>This is resturant: {{resturant}}</div> -->
+    <div class="card" style="width: 100%;">
+      <div class="card-body">
+        <img src="{{rest.featured_image}}" style="width:250px;height:250px;">
+        <h5 class="card-title" style="width:100%">{{rest.name}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

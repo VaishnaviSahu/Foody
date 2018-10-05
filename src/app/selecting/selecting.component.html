@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+      <form class="form">
+          <div class="form-group">
+            <label for="restaurant">Restaurant/Location</label>
+            <input type="text" class="form-control" id="restaurant" name="restaurant" [(ngModel)]="restaurant">
+          </div>
+          
+          <div class="form-group">
+              <label for="cuisine">Cuisine</label>
+              <input type="text" class="form-control" id="cuisine" name="cuisine" [(ngModel)]="cuisine">
+            </div>
+            <div class="button">
+              <button (click)="random()">Submit</button>
+              </div>
+              <a routerLink="displaycollections" routerLinkActive="active"><b>FAVOURITES</b></a>
+        </form>
+     <!-- <div class="card" *ngIf="res"> -->
+       <div class="resultsContainer">
+          <div class="row" *ngFor="let res1 of res">
+              <div class="card" style="width: 100%;">
+                <div class="card-body">
+                  
+                  <img src="{{res1.featured_image}}" alt="" style="width:200px;height:200px;">
+                  <h5 class="card-title" style="width:500%">{{res1.name}} </h5>
+                  <a  class="btn btn-primary" (click)="addFav(res1)">Add to Favourites</a><br><br>
+                </div>
+              </div>
+            </div>
+       </div>
+
+    </body>
+    </html>
+    
