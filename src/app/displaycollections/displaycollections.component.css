@@ -9,7 +9,8 @@
     padding-left: 35%;
 }
 button{
-    margin-left: 450px;
+    margin-left: 60
+   
 }
 
 .cards {
@@ -19,5 +20,6 @@ button{
 
 body{
        overflow: hidden;
-     width: 100%
+     width: 100%;
+    
 }
