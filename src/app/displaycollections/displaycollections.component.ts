@@ -10,7 +10,7 @@ import {AddtofavouritesService} from '../addtofavourites.service';
 })
 export class DisplaycollectionsComponent implements OnInit {
 
-  constructor(private httpClient: HttpClient,private svc: AddtofavouritesService) { }
+  constructor(private httpClient: HttpClient, private svc: AddtofavouritesService) { }
   res: any = [];
   restaurants = [];
   ngOnInit() {}
