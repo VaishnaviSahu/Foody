@@ -22,7 +22,7 @@
             <div class="button">
               <button (click)="random()">Submit</button>
               </div>
-              <a routerLink="displaycollections" routerLinkActive="active"><img src= "/src/assets/images/fav1.jpg" style="width:25px; height:25px;" ><b>VIEW FAVOURITES</b></a>
+              <a routerLink="displaycollections" routerLinkActive="active"><img src= "assets\images\fav1.jpg" style="width:25px; height:25px;" ><b>VIEW FAVOURITES</b></a>
         </form>
      <!-- <div class="card" *ngIf="res"> -->
        <div class="resultsContainer">
@@ -32,7 +32,7 @@
                   
                   <img src="{{res1.featured_image}}" alt="" style="width:200px;height:200px;">
                   <h5 class="card-title" style="width:500%">{{res1.name}} </h5>
-                  <a  class="btn btn-primary" (click)="addFav(res1)"> Add to Favourites <img src= "/src/assets/images/fav1.jpg" style="width:25px; height:25px;" ></a><br><br>
+                  <a  class="btn btn-primary" (click)="addToFavourites(res1)"> Add to Favourites <img src= "assets\images\fav1.jpg" style="width:25px; height:25px;" ></a><br><br>
                 </div>
               </div>
             </div>
