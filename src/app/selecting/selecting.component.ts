@@ -22,14 +22,17 @@ export class SelectingComponent implements OnInit {
   ngOnInit() {
   }
   random() {
+    
 
-    this.svc.GetFromAPI(this.LIVE_URI, this.restaurant, this.cuisine).subscribe((val: any) => {
+    this.svc.GetFromAPI(this.LIVE_URI,this.restaurant,this.cuisine).subscribe((val: any) => {
       this.res = val.restaurants.map(e => {
         return e.restaurant;
       });
     });
   }
    addToFavourites(res1: any) {
+    
   this.svc.PostDataToDB(res1);
-  }
+  
+   }
   }

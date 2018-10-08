@@ -10,12 +10,12 @@ import {AddtofavouritesService} from '../addtofavourites.service';
 })
 export class DisplaycollectionsComponent implements OnInit {
 
-  constructor(private httpClient: HttpClient, private svc: AddtofavouritesService) { }
+  constructor(private httpClient: HttpClient,private svc: AddtofavouritesService) { }
   res: any = [];
   restaurants = [];
   ngOnInit() {}
-showFavs() {
-    this.svc.showFavs().subscribe((res: any) => {
+showCollectionsfav() {
+    this.svc.showFavCollections().subscribe((res: any) => {
       this.restaurants = res;
       console.log(this.restaurants);
         });
