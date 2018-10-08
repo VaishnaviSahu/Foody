@@ -382,6 +382,56 @@
       "has_table_booking": 0,
       "events_url": "https://www.zomato.com/ncr/bakers-stop-punjabi-bagh-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
       "establishment_types": []
+    },
+    {
+      "R": {
+        "res_id": 18424078
+      },
+      "apikey": "9afe5ae2561b8091f5118177b4848b35",
+      "id": "18424078",
+      "name": "Burger King",
+      "url": "https://www.zomato.com/bangalore/burger-king-nagawara?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "location": {
+        "address": "Unit FCK/04, Fourth Floor, Thanisandra Main Road, Nagawara, Bangalore",
+        "locality": "Elements Mall, Nagawara",
+        "city": "Bangalore",
+        "city_id": 4,
+        "latitude": "13.0453984811",
+        "longitude": "77.6268534735",
+        "zipcode": "",
+        "country_id": 1,
+        "locality_verbose": "Elements Mall, Nagawara, Bangalore"
+      },
+      "switch_to_order_menu": 0,
+      "cuisines": "Burger, Fast Food",
+      "average_cost_for_two": 500,
+      "price_range": 2,
+      "currency": "Rs.",
+      "offers": [],
+      "opentable_support": 0,
+      "is_zomato_book_res": 0,
+      "mezzo_provider": "OTHER",
+      "is_book_form_web_view": 0,
+      "book_form_web_view_url": "",
+      "book_again_url": "",
+      "thumb": "https://b.zmtcdn.com/data/pictures/chains/5/61555/d22964f87e192693605c502c4cd09b85.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+      "user_rating": {
+        "aggregate_rating": "3.7",
+        "rating_text": "Good",
+        "rating_color": "9ACD32",
+        "votes": "351"
+      },
+      "photos_url": "https://www.zomato.com/bangalore/burger-king-nagawara/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+      "menu_url": "https://www.zomato.com/bangalore/burger-king-nagawara/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+      "featured_image": "https://b.zmtcdn.com/data/pictures/chains/5/61555/d22964f87e192693605c502c4cd09b85.jpg?output-format=webp",
+      "has_online_delivery": 1,
+      "is_delivering_now": 0,
+      "include_bogo_offers": true,
+      "deeplink": "zomato://restaurant/18424078",
+      "is_table_reservation_supported": 0,
+      "has_table_booking": 0,
+      "events_url": "https://www.zomato.com/bangalore/burger-king-nagawara/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "establishment_types": []
     }
   ],
   "favourites": [
